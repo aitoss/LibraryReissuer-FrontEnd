@@ -47,7 +47,7 @@ body{
     font-size: 4rem;
     font-weight: bolder;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
     text-shadow: 2px 2px black;
 }
 
@@ -60,12 +60,13 @@ body{
     text-shadow: 2px 2px black;
 }
 
-#error-content{
+.errorContent{
     background-color: white;
     margin-left: 20%;
     width: 60%;
     margin-top: 5%;
-    padding:5%;
+    padding:4%;
+    font-size: 17px;
     border-radius:10px;
     box-shadow: 3px 2px black;
 }
