@@ -71,6 +71,15 @@ body{
     box-shadow: 3px 2px black;
 }
 
+#stack-trace{
+    padding: 1%;
+    background-color: rgb(178, 187, 189);
+    border-radius:5px;
+    color:#C70039;
+    margin: 2%;
+    font-size: 15px;
+}
+
 #chill-message{
     color:white;
     text-align: center;
