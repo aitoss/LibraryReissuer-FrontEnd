@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Library Reissuer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="icon" type="image/ico" href="pics/icon.png"/>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div id="main-body" class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12"> 
+                <div id="content">
+                    <h1 id="heading">LIBRARY REISSUER</h1>
+                    <p class="paraContent">
+                        An application to reissue the books which have reached its due date.
+                    </p>
+
+                    <ul style="list-style-type:none;">
+                        <li style="list-style-image: url('pics/automatic.png');">
+                            <Strong>Auto-Reissue:</Strong> Reissues book if it has reached its due date.
+                        </li>
+                        <li style="list-style-image:url('pics/reminder.png')">
+                            <strong>Reminder:</strong> If only one day is left then you get a reminder to reissue/return your book immediately.  
+                        </li>
+                        <li style="list-style-image:url('pics/email.png')">
+                            <strong>Mailer:</strong> A mail is sent if the books are reissued automaticaly or they can't be ressued online anymore.
+                        </li>
+                    </ul>
+
+                    <h4 id="team-oss">
+                        Made with Love | Team OSS
+                    </h4>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <form action="/action_page.php" id="form-body">
+                    
+                    <h2 id="RegisterHeading">Register</h2>
+
+                    <div class="form-group">
+                        <label for="reg-no">Registration Number:</label>
+                        <input 
+                          type="text" 
+                          class="form-control" 
+                          pattern="[12][0-9]{4}"
+                          id="reg-no"
+                          oninvalid="setCustomValidity('Please Enter a Valid Registration Number')"
+                        >
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Library Password:</label>
+                      <input 
+                        type="password" 
+                        class="form-control" 
+                        id="pwd"
+                      >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input 
+                          type="email" 
+                          class="form-control" 
+                          id="email"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-no">Phone Number:</label>
+                        <input 
+                          type="text" 
+                          pattern="[6789][0-9]{9}"
+                          class="form-control" 
+                          id="phone-no"
+                          oninvalid="setCustomValidity('Please Enter a Valid Phone Number')"
+                        >
+                    </div>
+  
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+
