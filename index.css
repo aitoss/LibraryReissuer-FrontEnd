@@ -121,3 +121,19 @@ input {
     width: 250px;
     transition: border .5s;
 }
+
+@media screen and (max-width: 600px) {
+    #form-body {
+      margin:4%;
+    }
+    #content{
+        margin:1%;
+        padding: 0.5%
+    }
+    
+  }
+
+  div#content {
+    margin-top: 0;
+   
+}
